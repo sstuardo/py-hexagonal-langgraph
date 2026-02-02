@@ -1,8 +1,6 @@
 ---
 name: py-hexagonal-langgraph scaffold
 overview: Plan completo para construir un scaffold profesional en Python 3.11+ con arquitectura hexagonal, LangGraph, FastAPI, y blindaje de calidad (Ruff, Mypy, Pytest). El dominio permanece puro (sin dependencias externas) y los nodos del grafo se comunican con el mundo exterior exclusivamente a través de puertos inyectados.
-todos: []
-isProject: false
 ---
 
 # Plan: Scaffold py-hexagonal-langgraph
