@@ -1,3 +1,10 @@
+---
+name: py-hexagonal-langgraph scaffold
+overview: Plan completo para construir un scaffold profesional en Python 3.11+ con arquitectura hexagonal, LangGraph, FastAPI, y blindaje de calidad (Ruff, Mypy, Pytest). El dominio permanece puro (sin dependencias externas) y los nodos del grafo se comunican con el mundo exterior exclusivamente a través de puertos inyectados.
+todos: []
+isProject: false
+---
+
 # Plan: Scaffold py-hexagonal-langgraph
 
 ## 1. Árbol de directorios completo
@@ -76,6 +83,8 @@ py-hexagonal-langgraph/
 ---
 
 ## 2. Flujo: Nodo LangGraph → Puerto del Dominio
+
+![Diagrama de flujo: Nodo LangGraph → Puerto del Dominio](https://mermaid.ink/img/Zmxvd2NoYXJ0IFRCCiAgICBzdWJncmFwaCBpbmZyYSBbSW5mcmFlc3RydWN0dXJhXQogICAgICAgIE5vZGVbTm9kZSBMYW5nR3JhcGhdCiAgICAgICAgVXNlQ2FzZVtDaGF0VXNlQ2FzZV0KICAgICAgICBBZGFwdGVyW09wZW5BSUFkYXB0ZXJdCiAgICAgICAgR3JhcGhbU3RhdGVHcmFwaF0KICAgIGVuZAoKICAgIHN1YmdyYXBoIGRvbWFpbiBbRG9taW5pb10KICAgICAgICBMTE1Qb3J0W0xMTVBvcnQgUHJvdG9jb2xdCiAgICAgICAgQWdlbnRTdGF0ZVtBZ2VudFN0YXRlXQogICAgZW5kCgogICAgR3JhcGggLS0-IE5vZGUKICAgIE5vZGUgLS0-fCIxLiBSZWNpYmUgc3RhdGUifCBVc2VDYXNlCiAgICBVc2VDYXNlIC0tPnwiMi4gTGxhbWEgaW52b2tlKCkifCBMTE1Qb3J0CiAgICBMTE1Qb3J0IC0uLT58ImltcGxlbWVudGEifCBBZGFwdGVyCiAgICBBZGFwdGVyIC0tPnwiMy4gUmVzcHVlc3RhInwgVXNlQ2FzZQogICAgVXNlQ2FzZSAtLT58IjQuIFJldG9ybmEgZGljdCBjb24gdXBkYXRlcyJ8IE5vZGUKICAgIE5vZGUgLS0-fCI1LiBNZXJnZSBjb24gb3BlcmF0b3IuYWRkInwgQWdlbnRTdGF0ZQo=)
 
 ```mermaid
 flowchart TB

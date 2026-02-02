@@ -7,7 +7,20 @@ name = "py-hexagonal-langgraph"
 version = "0.1.0"
 description = "Scaffold profesional con arquitectura hexagonal, LangGraph y FastAPI"
 readme = "README.md"
+license = {text = "MIT"}
 requires-python = ">=3.11"
+keywords = [
+    "langgraph",
+    "langchain",
+    "fastapi",
+    "hexagonal-architecture",
+    "clean-architecture",
+    "ai",
+    "ai-agents",
+    "llm",
+    "scaffold",
+    "pydantic",
+]
 dependencies = [
     "fastapi>=0.115.0",
     "uvicorn[standard]>=0.32.0",
